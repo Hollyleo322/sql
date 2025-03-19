@@ -1,0 +1,2 @@
+select order_date, concat(person.name, ' (age:',person.age, ')' ) as person_information from person_order natural  join (SELECT id as person_id, name, age FROM person) as person
+order by order_date, person_information;
