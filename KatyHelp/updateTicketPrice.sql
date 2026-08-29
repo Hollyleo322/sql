@@ -1,0 +1,1 @@
+UPDATE TicketTypes SET price = 228.01 WHERE id = 2;
