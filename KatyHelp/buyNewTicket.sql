@@ -1,5 +1,11 @@
 INSERT INTO
-    Tickets
+    Tickets (
+        user_id,
+        type_id,
+        visit_date,
+        qr_code,
+        status
+    )
 VALUES (
         1,
         2,
