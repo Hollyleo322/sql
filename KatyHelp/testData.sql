@@ -1,5 +1,10 @@
 INSERT INTO
-    Users
+    Users (
+        name,
+        password,
+        email,
+        registration_date
+    )
 VALUES (
         'admin',
         'tushenka228',
@@ -8,7 +13,12 @@ VALUES (
     );
 
 INSERT INTO
-    Users
+    Users (
+        name,
+        password,
+        email,
+        registration_date
+    )
 VALUES (
         'kent',
         'bulbozavr322',
@@ -16,6 +26,6 @@ VALUES (
         '2026-08-20'
     );
 
-INSERT INTO TicketTypes VALUES ('bomj', 10.05);
+INSERT INTO TicketTypes (name, price) VALUES ('bomj', 10.05);
 
-INSERT INTO TicketTypes VALUES ('premium', 322.05);
+INSERT INTO TicketTypes (name, price) VALUES ('premium', 322.05);
